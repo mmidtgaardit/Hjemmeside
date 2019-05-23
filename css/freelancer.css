@@ -201,6 +201,11 @@ header.masthead h2 {
   }
 }
 
+.about {
+  margin-bottom: -15px;
+  background-color: rgba(24, 188, 156, 0.9);
+}
+
 .portfolio {
   margin-bottom: -15px;
 }
@@ -216,7 +221,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(255, 255, 255, 0.226);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -224,7 +229,7 @@ header.masthead h2 {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  --size: 1.5rem;
 }
 
 @media (min-width: 576px) {
