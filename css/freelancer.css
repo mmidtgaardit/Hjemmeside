@@ -343,6 +343,15 @@ header.masthead h2 {
   color: #202020;
 }
 
+.form-control {
+  color: #202020;
+}
+
+.form-control:focus {
+  color: #202020;
+  background: none; 
+}
+
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
